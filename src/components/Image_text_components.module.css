@@ -1,0 +1,33 @@
+
+.intro__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.intro__images {
+    width: 200px;
+    height: 133.35px;
+    flex-shrink: 0;
+}
+
+.intro__title {
+    margin: 0;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+}
+
+.intro__contents {
+    margin: 0;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.6px;
+}

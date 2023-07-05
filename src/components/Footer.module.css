@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    padding: 20px 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-grey-dark-grey, #3F3F3F);
+
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+    color: var(--yellow-yellow, #F8F5E0);
+}
+.terms {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-self: stretch;
+}
