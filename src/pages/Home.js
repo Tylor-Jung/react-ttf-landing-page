@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
+import mobileStyles from "./Home.mobile.module.css";
 import ImageTextComponents from "../components/Image_text_components";
 import TextImageComponents from "../components/Text_iamge_components";
 import DownloadComponents from "../components/Download_components";
@@ -12,16 +13,27 @@ import score from "../assets/images/score.png";
 import tips from "../assets/images/tips.png";
 import topics from "../assets/images/topics.png";
 
-function HomePage (){
+function HomePage() {
   return (
     //  Header
     <div>
-      <header className={styles.home__header}>
-        <span className={styles.home__ttf_text}>Thirtyful</span> for
-        <span className={styles.home__header__ielts__red}>IELTS</span>
+      <header className={`${styles.home__header} ${mobileStyles.home__header}`}>
+        <span
+          className={`${styles.home__ttf_text} ${mobileStyles.home__ttf_text}`}
+        >
+          Thirtyful
+        </span>
+        <span>for</span>
+        <span
+          className={`${styles.home__header__ielts__red} ${mobileStyles.home__header__ielts__red}`}
+        >
+          IELTS
+        </span>
       </header>
 
-      <body className={styles.home__background}>
+      <body
+        className={`${styles.home__background} ${mobileStyles.home__background}`}
+      >
         {/* ImageTextComponents = 이미지가 왼쪽, 텍스트가 오른쪽 */}
         {/* TextImageComponents = 텍스트가 왼쪽, 이미지가 오른쪽 */}
         <ImageTextComponents

@@ -1,0 +1,48 @@
+/* Mobile css */
+
+
+@media (max-width: 650px) {
+
+    .intro__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .intro__images {
+        width: 200px;
+        flex-shrink: 0;
+    }
+
+    .text__field {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .intro__title {
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: -0.6px;
+        margin: 0;
+    }
+
+    .intro__contents {
+        margin: 0;
+        color: var(--main-grey-grey, #4F4F4F);
+        font-size: 14px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+    }
+}

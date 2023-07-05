@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../components/Download_components.module.css";
+import mobileStyles from "../components/mobile_css/Download_components.mobile.module.css";
 import appstore from "../assets/images/app_store_button.png";
 import googleplay from "../assets/images/google_play_store_button.png";
 
@@ -7,14 +8,14 @@ import googleplay from "../assets/images/google_play_store_button.png";
 
 function DownloadComponents() {
   return (
-    <div className={styles.download__container}>
+    <div className={`${styles.download__container} ${mobileStyles.download__container}`}>
       <div>
-        <h1 className={styles.download__title}>The easiest way to make your IELTS scores higher </h1>
-        <h2 className={styles.download__contents}>
+        <h1 className={`${styles.download__title} ${mobileStyles.download__title}`}>The easiest way to make your IELTS scores higher </h1>
+        <h2 className={`${styles.download__contents} ${mobileStyles.download__contents}`}>
           Thirtyful for IELTS is now available on App Store and Google Play
         </h2>
 
-        <div className={styles.download__images}>
+        <div className={`${styles.download__images} ${mobileStyles.download__images}`}>
           <a href="https://apps.apple.com/us/app/thirtyful-for-ielts/id6448330332">
             <img src={appstore} alt="App Store" />
           </a>
