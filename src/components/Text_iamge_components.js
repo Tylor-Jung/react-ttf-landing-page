@@ -1,23 +1,21 @@
 import React from "react";
 import styles from "../components/Image_text_components.module.css";
-import displayImage from "../assets/images/display.png";
 
 // 텍스트가 오른쪽, 이미지가 왼쪽 위치한 컴포넌트
 
-function TextIamgeComponents() {
+function TextIamgeComponents({ imageSrc, altText, title, contents }) {
+
   return (
     <div className={styles.intro__container}>
-      <div>
+      <div className={styles.text__field}>
         <h4 className={styles.intro__title}>
-        You can take a test almost the same as the IELTS Speaking test.
+        {title}
         </h4>
         <span className={styles.intro__contents}>
-        Are you planning to take the IELTS test soon? 
-        Now, you can take practice tests right from your mobile phone 
-        and receive instant scores!
+        {contents}
         </span>
       </div>
-      <img src={displayImage} alt="Display" className={styles.intro__images} />
+      <img src={imageSrc} alt={altText} className={styles.intro__images} />
     </div>
   );
 }
