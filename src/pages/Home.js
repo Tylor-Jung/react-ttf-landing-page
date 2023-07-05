@@ -23,7 +23,7 @@ function HomePage (){
 
       <body className={styles.home__background}>
         {/* ImageTextComponents = 이미지가 왼쪽, 텍스트가 오른쪽 */}
-        {/* TextImageComponents = 이미지가 왼쪽, 텍스트가 오른쪽 */}
+        {/* TextImageComponents = 텍스트가 왼쪽, 이미지가 오른쪽 */}
         <ImageTextComponents
           imageSrc={display}
           altText={"Display Image"}
