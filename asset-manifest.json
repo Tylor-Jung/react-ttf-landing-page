@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-ttf-landing-page/static/css/main.97f7fc82.css",
+    "main.js": "/react-ttf-landing-page/static/js/main.e6a1e60d.js",
+    "static/media/display.png": "/react-ttf-landing-page/static/media/display.ab9cefab2324557bd5a7.png",
+    "index.html": "/react-ttf-landing-page/index.html",
+    "main.97f7fc82.css.map": "/react-ttf-landing-page/static/css/main.97f7fc82.css.map",
+    "main.e6a1e60d.js.map": "/react-ttf-landing-page/static/js/main.e6a1e60d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97f7fc82.css",
+    "static/js/main.e6a1e60d.js"
+  ]
+}
