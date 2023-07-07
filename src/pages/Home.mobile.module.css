@@ -19,16 +19,11 @@
     }
 
     .home__header {
-        display: flex;
         padding: 12px 20px;
-        align-items: flex-start;
-        background-color: var(--yellow-yellow, #F8F5E0);
-        color: #3F3F3F;
         font-size: 16px;
     }
 
     .home__ttf_text {
-        color: #C16A52;
         font-size: 16px;
         font-family: Poppins;
         font-style: normal;
@@ -38,7 +33,6 @@
 
     .home__header__ielts__red {
         color: #C15252;
-        ;
     }
 
 }
