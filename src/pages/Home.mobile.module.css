@@ -21,6 +21,7 @@
     .home__header {
         padding: 12px 20px;
         font-size: 16px;
+        gap: 4px;
     }
 
     .home__ttf_text {
