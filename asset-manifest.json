@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ttf-landing-page/static/css/main.192c1c48.css",
-    "main.js": "/react-ttf-landing-page/static/js/main.f702f5ca.js",
+    "main.js": "/react-ttf-landing-page/static/js/main.db7c3384.js",
     "static/media/topics.png": "/react-ttf-landing-page/static/media/topics.3b39ca6bd7c707761eb7.png",
     "static/media/display.png": "/react-ttf-landing-page/static/media/display.ab9cefab2324557bd5a7.png",
     "static/media/score.png": "/react-ttf-landing-page/static/media/score.3c8c650cf4f2d1bc02dc.png",
@@ -11,10 +11,10 @@
     "static/media/terms_of_use.txt": "/react-ttf-landing-page/static/media/terms_of_use.0b361fbe0853f2712934.txt",
     "index.html": "/react-ttf-landing-page/index.html",
     "main.192c1c48.css.map": "/react-ttf-landing-page/static/css/main.192c1c48.css.map",
-    "main.f702f5ca.js.map": "/react-ttf-landing-page/static/js/main.f702f5ca.js.map"
+    "main.db7c3384.js.map": "/react-ttf-landing-page/static/js/main.db7c3384.js.map"
   },
   "entrypoints": [
     "static/css/main.192c1c48.css",
-    "static/js/main.f702f5ca.js"
+    "static/js/main.db7c3384.js"
   ]
 }
