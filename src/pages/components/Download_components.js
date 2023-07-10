@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "../components/Download_components.module.css";
-import mobileStyles from "../components/mobile_css/Download_components.mobile.module.css";
-import appstore from "../assets/images/app_store_button.png";
-import googleplay from "../assets/images/google_play_store_button.png";
+import styles from "../../pages/components/Download_components.module.css";
+import mobileStyles from "../../pages/components/mobile_css/Download_components.mobile.module.css";
+import appstore from "../../../src/assets/images/app_store_button.png";
+import googleplay from "../../../src/assets/images/google_play_store_button.png";
+
 
 // 다운로드 이미지 & 링크가 있는 컴포넌트
 

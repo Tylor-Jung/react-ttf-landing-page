@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Home.module.css";
 import mobileStyles from "./Home.mobile.module.css";
-import ImageTextComponents from "../components/Image_text_components";
-import TextImageComponents from "../components/Text_iamge_components";
-import DownloadComponents from "../components/Download_components";
-import Footer from "../components/Footer";
+import ImageTextComponents from "./components/Image_text_components";
+import TextImageComponents from "./components/Text_iamge_components";
+import DownloadComponents from "./components/Download_components";
+import Footer from "./components/Footer";
 
 import display from "../assets/images/display.png";
 import aiTutor from "../assets/images/ai_tutor.png";
